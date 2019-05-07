@@ -1,0 +1,59 @@
+DP-60:
+  name: DP-60H
+  vendor: Datecs
+  inherits: default
+  notes: The EP-60H is a compact-sized, line thermal printer developed for variety of applications. It can be used as a data communication terminal, POS terminal, kitchen terminal, etc.
+  features:
+    barcodeA: true
+    barcodeB: true
+    bitImageRaster: true
+    bitImageColumn: true
+    graphics: true
+    starCommands: false
+    qrCode: true
+    pdf417Code: true
+    highDensity: true
+    pulseStandard: true
+    pulseBel: false
+    paperFullCut: true
+    paperPartCut: true
+  colors:
+    0: black
+  fonts:
+    0:
+      name: Font A
+      columns: 36
+    1:
+      name: Font B
+      columns: 48
+  media:
+    width:
+      mm: 54
+      pixels: 432
+codePages:
+    # "Normal"
+    0: CP437
+    1: Litva
+    2: West Europe Latin I (CP850) 
+    3: Brasil (CP860)
+    4: Poland
+    5: Bulgarian (CP856)
+    6: Central Europe Latin II (CP852)
+    7: Russian (CP866)
+    8: Turkish (CP857)
+    9: Windows English Latin I (CP1252)
+    10: Baltic (CP775)
+    11: Latvia
+    12: Greek (CP737)
+    13: Hebrew (CP862)
+    14: Windows Central European Latin II (CP1250)
+    15: Windows Cyrilic (CP1251)
+    16: Windows Greek (CP1253)
+    17: Windows Turkish (CP1254)
+    18: Windows Hebrew (CP1255)
+    19: Windows Baltic (CP1257)
+    20: West Europe Latin I + Euro (CP858)
+    21: Central Europe Latin II + Euro (CP852 + Euro)
+    22: Russian + Euro (CP808)
+    23: Turkish + Euro (CP857 + Euro)
+    
